@@ -1,0 +1,8 @@
+.logo img{
+    transition: all .2s;
+}
+
+.logo img:hover{
+    width: 120px;
+    transition: ease-in .2s;
+}

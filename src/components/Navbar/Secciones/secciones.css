@@ -1,0 +1,22 @@
+.nav-item{
+    transition: all .1s;
+    border-radius: 12px;
+    border: solid white;
+}
+
+.nav-item:hover{
+    background-color: white;
+    border-radius: 12px;
+    transition: ease-in .1s;
+}
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+    transition: all .1s;
+}
+
+.nav-link:hover{
+    font-size: 25px;
+    transition: ease-in .1s;
+}
