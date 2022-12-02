@@ -29,7 +29,7 @@ const consulatFormulario = (e) => {
 
 
 
-createOrdenCompra(valores, totalPrice(), newDate(),toISOString().slice(0, 10)).then(orden => { 
+   createOrdenCompra(valores, totalPrice(), new Date().toISOString().slice(0, 10)).then(orden => { 
   toast.success(`Su orden ${orden.id} fue creada con éxito`)
   empityCart()
   e.target.reset()

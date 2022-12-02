@@ -12,7 +12,7 @@ import Cart from "./Cart/Cart";
 import { CartContextProvider } from '../context/CartContext';
 import Checkout from "./Checkout/Checkout"
 import "react-toastify/dist/ReactToastify.css";
-import { ToastContainer } from "react-toastify"
+import { ToastContainer } from "react-toastify";
 const App = () => {
   return (
  <>
