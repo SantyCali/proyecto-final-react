@@ -1,3 +1,24 @@
+# Ecommerce-React
+
+_E-commerce creado en comision 37090 Noviembre 2022_
+
+### Dependencias 📋
+
+_ Paquetes extras incluidos_
+
+```
+    react-toastify
+```
+
+# Acerca del proyecto
+_Este proyecto lo cree para poder saber React_
+
+## Tecnologias utilizadas 🛠️
+
+* [React] (https://reactjs.org/) - Framework de Javascript
+* [Firebase] (https://firebase.google.com/) - Servidor y BDD en la nube
+* [Bootstrap] (https://getbootstrap.com/) - Framework de CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

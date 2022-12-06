@@ -7,9 +7,9 @@ const Carrito = () => {
     return (
     <>
      {cart.length === 0 ?
-     <div>
+     <div className="carritoVacio">
         <p>Tu carrito esta vacio</p>
-        <Link to={"/"}><a className="btn btn-dark">Ir al inicio de la tienda</a></Link>
+        <Link to={"/"}><a className="btn btn-dark inicioTienda">Ir al inicio de la tienda</a></Link>
      </div>
      :
      <div>

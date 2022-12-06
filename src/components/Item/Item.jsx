@@ -9,7 +9,7 @@ return (
       <p className="card-text">Marca: {prod.marca}</p>
       <p className="card-text">Precio: ${prod.precio}</p>
       <p className="card-text">Stock: {prod.stock}</p>
-      <button className="botonProducto"><Link className="botonDetalle" to={`/producto/${prod.id}`}>Ver Detalle</Link></button>
+      <Link className="botonDetalle" to={`/producto/${prod.id}`}><button className="botonProducto">Ver Detalle</button></Link>
  </div>
 </div>  
  

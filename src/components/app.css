@@ -106,3 +106,16 @@
     border-radius: 3px;
 
 }
+
+.carritoVacio{
+    margin-left: 34rem;
+}
+.carritoVacio p{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+    background-color: coral;
+    width: 480px;
+    text-align: center;
+    border-radius: 10px;
+}
