@@ -14,7 +14,7 @@ const Carrito = () => {
      :
      <div>
         {cart.map((prod, indice) => 
-              <div className="card mb-3" key={indice} style={{maxWidth: '540px'}}>
+              <div className="card mb-3 carritoDetalle" key={indice} style={{maxWidth: '540px'}}>
               <div className="row g-0">
                 <div className="col-md-4">
                   <img src={prod.img} className="img-fluid rounded-start" alt="..." />
@@ -30,11 +30,11 @@ const Carrito = () => {
                 </div>
               </div>
             </div>)}
-            <div>
-              <p>Total: {totalPrice()}</p>
-              <a className="btn btn-dark" onClick={emptyCart}>Limpiar Carrito</a>
+            <div className="carritoDetalle">
+              <p className="precioTotal">Total: {totalPrice()}</p>
+              <a className="btn btn-dark limpiarCarrito" onClick={emptyCart}>Limpiar Carrito</a>
               <Link to="/checkout">
-                <a className="btn btn-primary">Finalizar Compra</a>
+                <a className="btn btn-primary finalizarCompra">Finalizar Compra</a>
               </Link>
             </div>
          </div>
