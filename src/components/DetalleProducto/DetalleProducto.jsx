@@ -26,7 +26,7 @@ const {darkMode, toggleDarkMode} = useContext(DarkModeContext)
               <div className="row g-0">
                 <img src={producto.img} className="img-fluid rounded-start" alt="" />
               </div>
-              <div className="container">
+              <div className="detalleProduct">
                 <div className="card-body"></div>
                  <h5 className="card-title">{producto.nombre}</h5>
                  <p className="card-text">Marca: {producto.marca}</p>

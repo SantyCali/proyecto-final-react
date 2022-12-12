@@ -1,0 +1,17 @@
+.tarjetaDetalle{
+    margin-top: 12px;
+}
+
+.tarjetaDetalle h5{
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 7px;
+    margin-left: 40px;
+}
+
+.tarjetaDetalle p{
+    background-color: bisque;
+    width: 120px;
+    border-radius: 5px;
+}
