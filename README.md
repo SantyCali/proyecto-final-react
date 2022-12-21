@@ -19,6 +19,9 @@ _Este proyecto lo cree para poder saber React_
 * [Firebase] (https://firebase.google.com/) - Servidor y BDD en la nube
 * [Bootstrap] (https://getbootstrap.com/) - Framework de CSS
 
+# Screenshot
+![alt text](https://github.com/SantyCali/proyecto-final-react/blob/master/elviejoleon.mp4)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
